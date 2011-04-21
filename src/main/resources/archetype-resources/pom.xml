@@ -123,7 +123,7 @@
     </dependencies>
 
     <build>
-        <finalName>${project.groupId}</finalName>
+        <finalName>${artifactId}-${version}.${project.packaging}</finalName>
 
         <resources>
             <resource>
